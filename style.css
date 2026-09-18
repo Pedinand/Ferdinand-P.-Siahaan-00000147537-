@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    font-family: arial;
+    color: #333;
+}
+
+h2, h3 {
+    margin: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+#bungkus {
+    width: 1000px;
+    margin: 20px auto 0;
+}
+
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-bottom: 20px;
+}
+
+#logo img {
+    width: 80px;
+}
+
+#menu {
+    margin-top: 50px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px 0;
+    color: #144aec;
+}
+
+#menu ul li a:hover, #menu ul li a.active {
+    border-bottom: 5px solid #2f6fed;
+}
+
+#banner {
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#highlight {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#highlight .box {
+    width: 320px;
+    height: 180px;
+    background: grey;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box img {
+    width: 320px;
+}
+
+#subtitle {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#subtitle-image {
+    width: 480px;
+    height: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+#subtitle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#subtitle-text {
+    padding-left: 30px;
+}
+
+#subtitle-text h2 {
+    margin-bottom: 15px;
+    color:#000000
+}
+
+#subtitle-text p {
+    color: #000000;
+}
+
+#client {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#client h2 {
+    margin-bottom: 20px;
+}
+
+#client-logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.client-logo p {
+    font-size: 13px;
+    color: #666;
+    margin: 5px 0 0;
+}
+
+#testimonial {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#testimonial h2 {
+    margin-bottom: 20px;
+}
+
+#testimonial-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-box {
+    width: 470px;
+    background: #8a8a8a;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.testimonial-box img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-box h3 {
+    margin: 15px 0 10px;
+}
+
+.testimonial-box p {
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+}
+
+#subscribe {
+    background: #f86b9d;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    padding: 40px 30px;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+#subscribe h2 {
+    margin-bottom: 20px;
+    text-shadow: 1px 2px 2px #000;
+    font-weight: normal;
+}
+
+#subscribe form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+#subscribe input {
+    width: 370px;
+    max-width: 60%;
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+#subscribe button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background: #ba0e4a;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#subscribe button:hover {
+    background: #910837;
+}
+
+#footer {
+    background: #202033;
+    color: #ccc;
+    margin-top: 40px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+}
+
+#footer h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#footer p {
+    margin: 0 0 8px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+#footer-right {
+    text-align: right;
+}
+
+.social {
+    margin-bottom: 15px;
+}
+
+.social a {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social img {
+    width: 24px;
+    height: 24px;
+}
